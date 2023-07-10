@@ -1,4 +1,6 @@
-<h1>CENTRO MEDICO</h1>
+<nav>
+<img src="/imagenes/logo.png" alt="" height="180px">
+</nav>
 <h2>LISTADO DE PACIENTES</h2>
 <table>
     <thead>
@@ -23,8 +25,8 @@
                 <td><input id="telefono" name="telefono" value="{{telefono}}" {{../opcion}}></td>
                 <td>
                 {{#if ../estado}}
-                    <a class="eliminar" href="/pacientes/eliminar/{{cedula}}"><img src="/imagenes/eliminar.png"></a>
-                    <a class="editar" href="/pacientes/activar"><img src="/imagenes/editar.png"></a>
+                    <a class="eliminar" href="/pacientes/eliminar/{{cedula}}"><img src="/imagenes/eliminar.png" class="icono"></a>
+                    <a class="editar" href="/pacientes/activar"><img src="/imagenes/editar.png" class="icono"></a>
                 {{else}}
                     <input type="submit" value="Enviar">
                 {{/if}}

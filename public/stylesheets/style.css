@@ -1,10 +1,52 @@
 body {
+
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
   margin: 0;
-  padding: 20px;
+  
 }
-
+p{
+  font-size: 30px;
+}
+.contenido p{
+  display: flex;
+  justify-content: center;
+  top: 200px;
+}
+.opciones{
+  
+  display: flex;
+  justify-content:space-around;
+  
+  
+}
+.opcion img{
+  width: 450px;
+  height: 330px;
+  border-radius: 20px 20px 0 0;
+}
+.opcion{
+  
+  height: 250px;
+  width: 450px;
+}
+.opcion a{
+  background-color: #4cacaf;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  
+}
+nav{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  background-color: #ffffff;
+  
+  top: 0;
+}
 h1 {
   color: #333;
   text-align: center;
@@ -43,7 +85,7 @@ input {
   border: 0;
 }
 
-img{
+.icono{
   width: 15px;
 }
 
